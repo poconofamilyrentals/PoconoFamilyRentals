@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Photos | Peaceful Pocono Cabin</title>
+    <meta
+      name="description"
+      content="Photo gallery for the Peaceful Pocono Cabin in Albrightsville, Pennsylvania."
+    />
+    <link rel="preconnect" href="https://a0.muscache.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="photo-page">
+    <header class="photo-header">
+      <a class="back-link" href="index.html#gallery">Back to home</a>
+      <a class="header-cta photo-cta" href="https://www.airbnb.com/rooms/657282484689273972">Check Dates</a>
+    </header>
+
+    <main class="photo-main">
+      <div class="photo-title">
+        <p class="eyebrow">Photos</p>
+        <h1>Peaceful hot tub, game room, walk to beach & pool!</h1>
+      </div>
+      <nav class="photo-room-nav" data-room-nav aria-label="Photo sections"></nav>
+      <section class="room-photo-sections" data-photo-sections aria-label="All property photos"></section>
+    </main>
+
+    <script>
+      const sections = [
+        {
+          title: "Living room",
+          highlights: "Fireplace, sectional seating, skylights, TV, games, Wi-Fi, and deck access.",
+          photos: [
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/92e64558-16ca-47ff-a605-93eb1f18e5cc.jpeg", "Stone fireplace and large sectional for gathering."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/a0001234-9d75-441e-b4e2-c093c130cc13.jpeg", "Open living space with cathedral ceilings and skylights."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/c378c288-62e5-4fb7-9d53-e889faec10b4.jpeg", "Sliding doors connect the living room to the deck."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/ba455e61-1feb-4d26-af8c-e5c1516ec1c1.jpeg", "Indoor-outdoor flow from the seating area."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/887ed835-4b78-4da5-a81c-838f108f4191.jpeg", "Board games for relaxed nights in."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/8dc63e0d-7b84-47d8-bcfe-130ed43394f9.jpeg", "Living room game and media details."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/fb95dc2e-4db5-45a5-abcd-b87ea597c952.jpeg", "Bird's-eye view of the sectional and deck access."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/460f283f-233c-4dd0-87e4-ed2e0a0e42e7.jpeg", "Kitchen bar seating visible from the living space."],
+          ],
+        },
+        {
+          title: "Full kitchen",
+          highlights: "Granite counters, island, appliances, coffee makers, cooking basics, and family meal supplies.",
+          photos: [
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/2f012988-0012-4ee8-b1e4-ce2855f1cd5c.jpeg", "Fully stocked kitchen with bar seating."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/9c07d511-ff15-4d14-93c3-54543678fea6.jpeg", "Modern kitchen with granite counters and island."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/f51ccf71-7153-4094-882d-003ba8d8b4f6.jpeg", "Stove, oven, full-size fridge, and cooking essentials."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/dc763b61-f02b-4ba6-8183-bb0c2b038b75.jpeg", "Dining area connected to the kitchen."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/24d4051a-9df5-4165-865a-5e3cfea7f8eb.jpeg", "Keurig, drip coffee maker, and morning essentials."],
+          ],
+        },
+        {
+          title: "Dining area",
+          highlights: "Dining table, wine glasses, bright open layout, and seating for group meals.",
+          photos: [
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/959681ae-5ed2-48e2-adfc-6db420c7b259.jpeg", "Bright dining space for shared meals."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/17b55784-aa84-4322-8e89-7e554d366b49.jpeg", "Dining table seating for eight or more."],
+          ],
+        },
+        {
+          title: "Bedroom 1",
+          highlights: "Top-floor primary suite with queen bed, cathedral ceiling, deck access, and attached bunk area.",
+          photos: [
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/95dde349-4bd0-4ee2-9e8a-cb5bda6beac4.jpeg", "Primary bedroom with queen bed and airy ceiling."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/093d7a37-0054-4aa6-8cf6-a1630ce4a8d9.jpeg", "Direct access to a quiet private deck."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/1d5a45f2-b5d5-4cce-8273-9c0009bc61fe.jpeg", "Primary bedroom queen bed."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/414b33a0-1f39-4735-87aa-914a752d90f0.jpeg", "Primary bedroom seating and storage details."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/5648b7ce-b0f5-4f82-9bfd-7609091d5227.jpeg", "Twin-over-full bunk area in the family suite."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/ee38d242-72dc-447a-9bb3-a487f728985b.jpeg", "Attached bunk room for children or extra guests."],
+          ],
+        },
+        {
+          title: "Bedroom 2",
+          highlights: "Main-level queen bedroom with modern furnishings and easy access to the living spaces.",
+          photos: [
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/fd85944c-5e77-49f4-a97f-574da5a29194.jpeg", "Main-level queen bedroom."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/143f41df-150c-49d6-834e-2eb1f27ab836.jpeg", "Soft lighting and comfortable queen bed."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/04fafcc4-f2f5-45c0-9554-12d091519636.jpeg", "Main-level bedroom view."],
+          ],
+        },
+        {
+          title: "Bedroom 3",
+          highlights: "Top-floor bunk room with two twin-over-full bunk beds for family groups.",
+          photos: [
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/7b60b5be-8c02-445e-9510-208223746fef.jpeg", "Bunk room with two twin-over-full beds."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/93ef3a95-09e2-434d-a050-d165890b908e.jpeg", "Family-friendly top-floor bunk space."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/f7d9f103-f4fc-4377-8112-45216d113523.jpeg", "Sleeping arrangements for up to six guests."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/4bdd5aba-fc5c-4185-af98-3f5768ab2655.jpeg", "Bunk room storage and sleeping layout."],
+          ],
+        },
+        {
+          title: "Game room",
+          highlights: "Pool table, foosball, air hockey, ping pong, arcade games, karaoke, and 70-inch TV.",
+          photos: [
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/ee6462fa-5a45-4391-8e62-29a36567089e.jpeg", "Game room with pool table, foosball, arcade games, and TV."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/99a02dae-1fca-451d-b88a-0c0476b0e199.jpeg", "Spacious game room for group entertainment."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/c2218084-2712-481e-b8d1-6f83a2729376.jpeg", "Arcade, foosball, air hockey, and karaoke setup."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/5c77f424-0e6a-4ed0-957d-229f3594753c.jpeg", "Entertainment room arranged for all-ages fun."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/f8512bd9-02a4-44d5-9294-15071c350db6.jpeg", "Air hockey and ping pong setup."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/e33b6b1b-10e9-4dcc-b2a2-057dc0b0bcb2.jpeg", "Air hockey in the game room."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/5c4c5f07-20e8-4e69-8992-8ce021f72519.jpeg", "Karaoke and retro arcade games."],
+          ],
+        },
+        {
+          title: "Bathrooms",
+          highlights: "Three full bathrooms across the main floor, top floor, and game room level.",
+          photos: [
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/9b4ea5e1-0b49-44cf-b5ad-3df98d32ffec.jpeg", "Main-floor full bathroom with bathtub."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/51180a2b-79bd-4fc8-938c-e8da843e84cb.jpeg", "Top-floor full bathroom."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/ac9ad1e9-1d52-476a-bb7a-4d40fb12d977.jpeg", "Game room level full bath."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/84d5d499-d021-41f1-846e-24d63e9e68d2.jpeg", "Second view of the game room full bath."],
+          ],
+        },
+        {
+          title: "Outdoor spaces",
+          highlights: "Yard, deck, patio seating, private balcony, grill, hot tub, and regular wildlife visitors.",
+          photos: [
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/aee6a5a9-be7c-4260-bccb-ad28e4759eca.jpeg", "Peaceful yard surrounded by nature."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/87a58710-5731-438e-8a7d-d2561184574d.jpeg", "Frequent wildlife around the property."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/334cb1af-8ecc-44d5-b4e3-536a786c74bf.jpeg", "Another look at visiting wildlife."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/efd0eab3-cc62-4ab6-8484-b15ca0dcd17e.jpeg", "Large deck with bar and seating for ten."],
+            ["https://a0.muscache.com/im/pictures/hosting/Hosting-657282484689273972/original/c04ab33c-e103-4315-be8b-1367d16d9c9c.jpeg", "String-lit deck for evening relaxation."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/3fc1a45c-44a1-449a-b048-61fdc0b14006.jpeg", "Bistro deck off the primary bedroom."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/a32a1899-fb91-4158-bde4-987b24848d30.jpeg", "Six-person hot tub on the deck."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/c469761a-eb16-4ae0-ad4b-a3f7c8deb396.jpeg", "Continuous-feed propane grill area."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/7139b8d7-25d2-4f81-ba49-ddd48b4b08d2.jpeg", "Laundry room for longer stays."],
+          ],
+        },
+        {
+          title: "Exterior and community",
+          highlights: "Community pool, beach, clubhouse playground, lake views, and nearby Pocono attractions.",
+          photos: [
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/c53759f6-f780-4584-a83e-1928c5d88c0c.jpeg", "Pool area with loungers and lake views."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/0e275080-2b0e-4b0b-b1b3-bd6d2d821087.jpeg", "Cabin exterior view."],
+            ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjU3MjgyNDg0Njg5MjczOTcy/original/a8b7fb08-43dd-4ceb-ac3b-c54c8a6f7b94.jpeg", "Additional exterior perspective."],
+            ["https://a0.muscache.com/im/pictures/hosting/Hosting-657282484689273972/original/aba64883-4525-4961-88e4-81f81b7d36ab.jpeg", "Front exterior and arrival view."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/0dae4810-9741-439f-9d8d-4ee4f8f3feca.jpeg", "Community pool with lake views."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/f3a2af17-f8c1-4d5c-bf22-e4ebe430d551.jpeg", "Summer pool access from Memorial Day to Labor Day."],
+            ["https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjU3MjgyNDg0Njg5MjczOTcy/original/a0fb8821-b038-4506-9134-bf16689e4752.jpeg", "Community beach about a four-minute walk away."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/968d6065-b530-489e-8184-0ac0d1158499.jpeg", "Towamensing Trails community area."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/91492785-bbc3-481f-91ac-28a0f17b43bf.jpeg", "Beach and lake area near the house."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/e4560b71-3c7c-4847-b868-4509932cc8a7.jpeg", "Playground at the clubhouse complex."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/089d0a36-e8ba-4590-a5e4-51110fcf5016.jpeg", "Historic downtown Jim Thorpe is 15 miles away."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/2f467951-096a-431d-b3fe-09c71620d161.jpeg", "Jack Frost is 15 miles away."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/f09b933f-a147-401f-9ee2-e7c81957c28e.jpeg", "Another nearby Jack Frost reference."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/ecc9c045-a8d4-4e02-bb9d-07a3415d4013.jpeg", "Big Boulder is 5.5 miles away."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/e6b80dbf-b21c-477b-b55b-72715b3363a6.jpeg", "Pocono Raceway is 8.5 miles away."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/7b03d1aa-435f-4290-9223-4bd7608f12c5.jpeg", "Skirmish is 3.5 miles away."],
+          ],
+        },
+        {
+          title: "Floor plans",
+          highlights: "Ground, first, and second floor plans from the listing.",
+          photos: [
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/0a55c341-0c1b-4469-bea4-c6328ef2eeac.jpeg", "Ground floor floor plan, mostly to scale."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/1ed3c62f-d36a-446c-a3d3-45e9cd7ec026.jpeg", "First floor floor plan, mostly to scale."],
+            ["https://a0.muscache.com/im/pictures/miso/Hosting-657282484689273972/original/3dfa78d2-6d68-48f0-ad96-c1abffdf64b9.jpeg", "Second floor floor plan, mostly to scale."],
+          ],
+        },
+      ];
+
+      const nav = document.querySelector("[data-room-nav]");
+      const container = document.querySelector("[data-photo-sections]");
+
+      sections.forEach((section, sectionIndex) => {
+        const slug = section.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+        const navLink = document.createElement("a");
+        navLink.href = `#${slug}`;
+        navLink.textContent = section.title;
+        nav.append(navLink);
+
+        const sectionEl = document.createElement("section");
+        sectionEl.className = "room-photo-section";
+        sectionEl.id = slug;
+
+        const heading = document.createElement("div");
+        heading.className = "room-photo-heading";
+        heading.innerHTML = `<p class="eyebrow">${String(section.photos.length).padStart(2, "0")} photos</p><h2>${section.title}</h2><p>${section.highlights}</p>`;
+        sectionEl.append(heading);
+
+        const grid = document.createElement("div");
+        grid.className = "airbnb-photo-grid";
+
+        section.photos.forEach(([src, caption], photoIndex) => {
+          const figure = document.createElement("figure");
+          figure.className = "photo-card";
+
+          const link = document.createElement("a");
+          link.href = src;
+          link.target = "_blank";
+          link.rel = "noreferrer";
+
+          const img = document.createElement("img");
+          img.src = src;
+          img.alt = caption;
+          if (sectionIndex > 0 || photoIndex > 3) img.loading = "lazy";
+
+          const figcaption = document.createElement("figcaption");
+          figcaption.textContent = caption;
+
+          link.append(img);
+          figure.append(link, figcaption);
+          grid.append(figure);
+        });
+
+        sectionEl.append(grid);
+        container.append(sectionEl);
+      });
+    </script>
+  </body>
+</html>
